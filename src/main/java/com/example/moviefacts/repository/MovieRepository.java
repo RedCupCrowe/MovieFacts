@@ -72,7 +72,7 @@ public class MovieRepository {
     String tenMovies = "";
     Collections.sort(tenMoviesList);
     for (int i = 0; i < tenMoviesList.size(); i++){
-      tenMovies += tenMoviesList.get(i);
+      tenMovies += tenMoviesList.get(i) + "<br>";
     }
     return tenMovies;
   }
